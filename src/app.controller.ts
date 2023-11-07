@@ -9,6 +9,6 @@ export class AppController {
   getWelcome(@Res() res: Response) {
     return res
       .status(HttpStatus.OK)
-      .json({ message: 'Welocme', status: 'OK', data: null });
+      .json({ message: 'Welocme To Rwanda API', status: 'OK', data: null });
   }
 }
